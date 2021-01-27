@@ -5,25 +5,25 @@
 
 
 
-//枚举常量 ：一一列举的常量
-//比如说：性别（男，女，保密）；三原色（红，黄，绿）；星期（1，2，3，4，5，6，7）
-//枚举关键 —— enum
+枚举常量 ：一一列举的常量
+比如说：性别（男，女，保密）；三原色（红，黄，绿）；星期（1，2，3，4，5，6，7）
+枚举关键 —— enum
 
-//enum Sex
-//{
-//	Male,
-//	Female,
-//	Secret
-//};
-////Male,Female,Secret -枚举常量
-//int main()
-//{
-//	/*enum Sex s = Female;*/
-//	printf("%d\n", Male);
-//	printf("%d\n", Female);
-//	printf("%d\n", Secret);
-//	return 0;
-//}
+enum Sex
+{
+	Male,
+	Female,
+	Secret
+};
+//Male,Female,Secret -枚举常量
+int main()
+{
+	/*enum Sex s = Female;*/
+	printf("%d\n", Male);
+	printf("%d\n", Female);
+	printf("%d\n", Secret);
+	return 0;
+}
 
 
 enum Colour
