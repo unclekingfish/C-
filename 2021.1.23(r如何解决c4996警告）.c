@@ -3,27 +3,27 @@
 #include <stdio.h>
 #include <string.h>
 
-//
-//int main()
-//{
-//	double num0 = 0;
-//	double num1 = 0;
-//	double sum = 0;
-//	scanf("%lf%lf", &num0, &num1);
-//	sum = num0 + num1;
-//	printf("sum = %lf\n", sum);
-//	return 0;
-//
-//}
-//
-//int main()
-//{
-//	char arr[5] = { 0 };//5个字符
-//	scanf("%s", arr);//输入超过5个字符？
-//	printf("%s\n", arr);
-//
-//	return 0;//讲道理这个代码我有点懵
-//}
+
+int main()
+{
+	double num0 = 0;
+	double num1 = 0;
+	double sum = 0;
+	scanf("%lf%lf", &num0, &num1);
+	sum = num0 + num1;
+	printf("sum = %lf\n", sum);
+	return 0;
+
+}
+
+int main()
+{
+	char arr[5] = { 0 };//5个字符
+	scanf("%s", arr);//输入超过5个字符？
+	printf("%s\n", arr);
+
+	return 0;//讲道理这个代码我有点懵
+}
 
 int main()
 {
