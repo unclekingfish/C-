@@ -1,9 +1,13 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<string.h>
+
+
 一维数组的创建和初始化：
+
 数组是一组相同类型元素的集合。
 创建方式：
+
 type_t   arr_name[const_n];
 //type_t 实质数组的元素类型
 //const_n 是一个常量表达式，用来指数组的大小。
@@ -27,7 +31,7 @@ int main()
 {
 	int arr[10] = { 1,2,3 }; //不完全初始化，剩下的元素默认初始化为0
 	char arr2[5] = { 'a','b' };
-	char arr2[5] = { 'a',98 }; //结果和上面的代码一样
+	char arr2[5] = { 'a',98 }; //结果和上面的arr2数组一样
 	char arr3[5] = "ab";//ok
 	char arr4[] = "abcdef"; //arr4 里面放着 a b c d e f 0
 	printf("%d", sizeof(arr4)); //7  size -算\0
@@ -40,7 +44,7 @@ int main()
 }
 
 1.strlen 和 sizeof 没什么关联
-2.strlen 是1求字符串长度的-只能针对字符串求长度-库函数-使用得引用头文件<string.h>
+2.strlen 是求字符串长度的-只能针对字符串求长度-库函数-使用得引用头文件<string.h>
 3.sizeof 计算变量,数组，类型的大小—单位是字节—操作符
 
 
